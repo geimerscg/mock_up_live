@@ -1,0 +1,99 @@
+/* stles for Portfolio project */
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: georgia, serif;
+  /* background-image: url('Images/bckr1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.headerBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headerLogo {
+  width: 40%;
+  height: 120px;
+}
+
+.myName {
+  width: 60%;
+  text-align: right;
+}
+
+.myJobTitle {
+  width: 100%;
+  height: 25px;
+  text-align: right;
+  background-color: #7d97ad;
+}
+
+.mainContentBox {
+  width: 100%;
+}
+
+.titleBox {
+  width: 100%;
+}
+
+.mainImage {
+  width: 100%;
+}
+
+.project1Box {
+  width: 100%;
+}
+
+.project1Image {
+  width: 100%;
+}
+
+.project2Box {
+  width: 100%;
+}
+
+.project2Image {
+  width: 100%;
+}
+
+.project3Box {
+  width: 100%;
+}
+
+.project3Image {
+  width: 100%;
+}
+
+.allProjectsBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 500px) {
+  .project1Box {
+    width: 33.33%;
+  }
+
+  .project2Box {
+    width: 33.33%;
+  }
+
+  .project3Box {
+    margin: 0 auto;
+    width: 33.33%;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .body {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
